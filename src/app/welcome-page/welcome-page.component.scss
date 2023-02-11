@@ -1,5 +1,5 @@
-$primary: #b20000;
-$secondary: #6f0000;
+$primary: #014c56;
+$secondary: #5a918a;
 $btnColor: #252525;
 
 * {
@@ -23,12 +23,12 @@ $btnColor: #252525;
 }
 
 .welcome-card-header {
-  font-family: 'Monoton', cursive;
+  font-family: sans-serif;
   margin-bottom: 5%;
   display: flex;
   justify-content: center;
   font-weight: 500;
-  color:$primary;
+  color: $primary;
 }
 
 .welcome-card-actions {
@@ -40,13 +40,13 @@ button:first-child {
   margin-left: 3%;
 }
 
-.mat-mdc-raised-button.mat-primary{
+.mat-mdc-raised-button.mat-primary {
   background-color: $btnColor;
   color: white;
 }
 
 @media all and (max-width: 325px) {
-  .welcome-card{
+  .welcome-card {
     width: 95%;
     max-width: 250px;
     aspect-ratio: 1.5/1;
@@ -61,7 +61,7 @@ button:first-child {
 }
 
 @media all and (min-width: 325px) and (max-width: 365px) {
-  .welcome-card{
+  .welcome-card {
     width: 95%;
     max-width: 280px;
     aspect-ratio: 1.8/1;
@@ -72,7 +72,7 @@ button:first-child {
 }
 
 @media all and (min-width: 365px) and (max-width: 500px) {
-  .welcome-card{
+  .welcome-card {
     width: 95%;
     max-width: 350px;
     aspect-ratio: 1.8/1;
@@ -83,7 +83,7 @@ button:first-child {
 }
 
 @media all and (min-width: 500px) {
-  .welcome-card{
+  .welcome-card {
     width: 420x;
     aspect-ratio: 2/1;
   }
