@@ -1,5 +1,5 @@
-$primary: #b20000;
-$secondary: #6f0000;
+$primary: #014c56;
+$secondary: #5a918a;
 $textColor: #414141;
 $btnColor: #252525;
 
@@ -20,7 +20,7 @@ mat-card {
   flex-direction: column;
   box-shadow: 0 0 10px grey;
   justify-content: space-between;
-  color:$textColor;
+  color: $textColor;
 }
 
 .update-form {
@@ -39,16 +39,16 @@ mat-card-header {
 
 .card-actions {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   margin-top: 24px;
 }
 
-.mat-mdc-raised-button.mat-primary{
+.mat-mdc-raised-button.mat-primary {
   background-color: $btnColor;
   color: white;
 }
 
-.mat-mdc-raised-button.mat-warn{
+.mat-mdc-raised-button.mat-warn {
   background-color: $primary;
   color: white;
 }

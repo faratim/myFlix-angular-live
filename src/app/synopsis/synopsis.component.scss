@@ -1,4 +1,5 @@
-$secondary: #6f0000;
+$primary: #014c56;
+$secondary: #5a918a;
 $cardBg: $secondary;
 $textColor: #e9e9e9;
 $closeBtnColor: #cc5050;
@@ -29,9 +30,9 @@ $titleFontWeight: 600;
   top: 16px;
   right: 16px;
   padding: 0px;
-  color:$textColor;
+  color: $textColor;
 }
 
 .btn-dialog-close:hover {
-  color:$closeBtnColor;
+  color: $closeBtnColor;
 }

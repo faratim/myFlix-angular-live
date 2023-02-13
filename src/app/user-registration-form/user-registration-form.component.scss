@@ -1,8 +1,7 @@
-$primary: #b20000;
-$secondary: #6f0000;
+$primary: #014c56;
+$secondary: #5a918a;
 $textColor: #414141;
 $btnColor: #252525;
-
 
 mat-card {
   max-width: 500px;
@@ -25,7 +24,8 @@ mat-label {
   color: $textColor;
 }
 
-input.mat-mdc-input-element, .mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {
+input.mat-mdc-input-element,
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {
   color: $textColor !important;
 }
 
@@ -35,7 +35,7 @@ mat-card-actions {
   justify-content: left;
 }
 
-.mat-mdc-raised-button.mat-primary{
+.mat-mdc-raised-button.mat-primary {
   background-color: $btnColor;
   color: white;
 }

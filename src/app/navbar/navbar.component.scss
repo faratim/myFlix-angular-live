@@ -1,11 +1,12 @@
 $textSizeLarg: 18px;
 $textSizeSmall: 14px;
-$primary: #b20000;
+$primary: #014c56;
+$secondary: #5a918a;
 $textColor: white;
 
 .navbar {
-  position:fixed;
-  top:0;
+  position: fixed;
+  top: 0;
   z-index: 999;
   overflow: hidden;
   width: 100%;
@@ -20,14 +21,13 @@ a {
 }
 
 a:hover {
-  filter:drop-shadow(0 0 8px white);
+  filter: drop-shadow(0 0 8px white);
 }
-
 
 .nav-logo {
   flex: 1 1 auto;
-  font-family: 'Monoton', cursive;
-  filter:drop-shadow(0 0 5px white);
+  font-family: sans-serif;
+  filter: drop-shadow(0 0 5px white);
 }
 
 .nav-logout {
@@ -44,10 +44,11 @@ a:hover {
   }
 
   .nav-logo {
-    font-size:18px;
+    font-size: 18px;
   }
 
-  .nav-profile, .nav-logout {
+  .nav-profile,
+  .nav-logout {
     font-size: 12px;
   }
 
@@ -62,10 +63,11 @@ a:hover {
   }
 
   .nav-logo {
-    font-size:24px;
+    font-size: 24px;
   }
 
-  .nav-profile, .nav-logout {
+  .nav-profile,
+  .nav-logout {
     font-size: 14px;
   }
 
@@ -84,10 +86,11 @@ a:hover {
   }
 
   .nav-logo {
-    font-size:28px;
+    font-size: 28px;
   }
 
-  .nav-profile, .nav-logout {
+  .nav-profile,
+  .nav-logout {
     font-size: 18px;
   }
 
@@ -110,10 +113,11 @@ a:hover {
   }
 
   .nav-logo {
-    font-size:30px;
+    font-size: 30px;
   }
 
-  .nav-profile, .nav-logout {
+  .nav-profile,
+  .nav-logout {
     font-size: 18px;
   }
 
