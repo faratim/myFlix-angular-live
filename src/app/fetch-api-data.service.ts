@@ -8,7 +8,7 @@ import {
 import { Observable, throwError } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-const apiUrl = 'https://faratim.herokuapp.com/';
+const apiUrl = 'https://faraflix.herokuapp.com/';
 
 //Decorator to make this service available everywhere
 @Injectable({
