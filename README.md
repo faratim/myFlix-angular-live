@@ -1,4 +1,4 @@
-# FavMovieAngularClient
+# myFlix AngularClient
 
 This is the client-side for the myFlix application, build with Angular. For the backend this app uses my [movie_api](https://github.com/faratim/movie_api).
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
@@ -18,10 +18,7 @@ TypeScript, Angular, TypeDoc
 
 ## Deployed application
 
-[FavMovie Angular](https://faratim.github.io/myFlix-angular-live)
-
-<!-- ## [Application documentation](https://github.com/schen888/favMovie-Angular-client/tree/master/docs)
-Documentation was generated via TypeDoc. -->
+[myFlix Angular](https://faratim.github.io/myFlix-angular-live)
 
 ##
 
@@ -50,6 +47,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 <!-- ## App showcase
-<img alt="A screenshot of the welcome-page in FavMovie App" src="/img/Screenshot1.png" width="100%">
-<img alt="A screenshot of the movie-page in FavMovie App" src="/img/Screenshot4.png" width="100%">
-<img alt="A screenshot of the profile-page in FavMovie App" src="/img/Screenshot3.png" width="100%"> -->
+<img alt="A screenshot of the welcome-page in myFlix App" src="/img/Screenshot1.png" width="100%">
+<img alt="A screenshot of the movie-page in myFlix App" src="/img/Screenshot4.png" width="100%">
+<img alt="A screenshot of the profile-page in myFlix App" src="/img/Screenshot3.png" width="100%"> -->
